@@ -39,7 +39,7 @@ const MealCard: React.FC<MealCardType> = ({
       </div>
       <div className="py-2 flex justify-between">
         <p>
-          <span className="text-specialPrice font-medium">Special Price</span>{" "}
+          <span className="text-gray-500 font-medium">Special Price</span>{" "}
           <br />
           <span className="text-xl font-bold pr-1">
           ₦
@@ -57,7 +57,7 @@ const MealCard: React.FC<MealCardType> = ({
             whileTap={{ scale: 0.75 }}
             onClick={() => addOrRemoveItemsFromCart(meal.idMeal)}
             className={`w-8 h-8 rounded-full ${
-              isCartItem ? "bg-red-600" : "bg-green-600"
+              isCartItem ? "bg-red-600" : "bg-gray-600"
             } flex items-center transition-all 100s ease-in-out justify-center cursor-pointer hover:shadow-md mt-2`}
           >
             <MdShoppingBasket className="text-white" />

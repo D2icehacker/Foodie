@@ -60,7 +60,7 @@ const Homepage = () => {
       <Home />
       <section className="w-full my-6 top-10-meals">
         <div className="w-full flex sm:flex-row flex-col sm:gap-0 gap-8 items-center justify-between">
-          <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:content before:w-24 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-orange-400 to-orange-600 transition-all ease-in-out duration-100">
+          <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:content before:w-24 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-gray-400 to-gray-600 transition-all ease-in-out duration-100">
             Top 10 Meals
           </p>
 

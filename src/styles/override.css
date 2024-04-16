@@ -13,12 +13,12 @@
 
 .top-10-meals .ant-input-group-addon,
 .top-10-meals .ant-btn-primary {
-  background-color: #f76f14 !important;
+  background-color: grey !important;
 }
 
 .top-10-meals .ant-input-search-button:hover,
 .top-10-meals .ant-input-search-button:active {
-  background-color: #fe6600 !important;
+  background-color: grey !important;
 }
 
 /* antd card */

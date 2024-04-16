@@ -8,6 +8,7 @@ import Loader from "./components/Loader";
 const Cart = lazy(() => import("./pages/Cart"));
 const Orders = lazy(() => import("./pages/Orders"));
 const Meals = lazy(() => import("./pages/Meals"));
+const About = lazy(() => import("./pages/About"));
 
 function App() {
   const navigate = useNavigate();
@@ -26,6 +27,7 @@ function App() {
           <Suspense fallback={<Loader />}>
             <Routes>
               <Route path="/*" element={<Homepage />} />
+              <Route path="/about" element={<About />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/orders" element={<Orders />} />
               <Route path="/meals/:meal" element={<Meals />} />

@@ -62,7 +62,7 @@ const Header = () => {
               {...motionAnimate}
               onClick={() => setIsMobile(!isMobile)}
               type="button"
-              className="text-white inline-flex  rounded-md bg-gradient-to-br from-orange-400 to-orange-500 p-2 cursor-pointer"
+              className="text-white inline-flex  rounded-md bg-gradient-to-br from-grey-400 to-orange-500 p-2 cursor-pointer"
               aria-expanded="false"
             >
               <GiHamburgerMenu className="text-2xl" />
@@ -110,7 +110,7 @@ const NavbarWithBadge: React.FC<NavbarBadge> = ({
 }) => {
   const activeNavbar =
     page.path === activePath
-      ? `${className} relative before:absolute before:rounded-lg before:content before:min-w-full before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-orange-400 to-orange-600`
+      ? `${className} relative before:absolute before:rounded-lg before:content before:min-w-full before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-gray-400 to-gray-600`
       : className;
 
   // Adding Cart Items Count as Badge Count
